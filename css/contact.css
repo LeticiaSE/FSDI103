@@ -1,0 +1,42 @@
+label{
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+legend{
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+input:not([type="submit"]),textarea,select{
+    display: block;
+    background-color: #e1e1e1;
+    width: 80%;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    border: none;
+    font-size: 1.6rem;
+}
+
+.btn{
+    display: block;
+    width: 20rem;
+    background-color: #e3f34f;
+    font-weight: 400;
+    font-size: 1.8rem;
+    text-decoration: none;
+    padding: 1rem;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 3rem;
+    margin-top: 3rem;
+}
+
+.btn-form{
+    display: flex;
+    justify-self: center;
+}
