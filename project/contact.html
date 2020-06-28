@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">">
+    <link rel="stylesheet" href="css/normaliza.css">
+    <link rel="stylesheet" href="css/mystyle.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <title>Contact</title>
+</head>
+<body>
+    <header class="site-header">
+        <div class="content-header">
+            <div class="bar"> 
+                <a href="index.html">
+                    <img src="img/logo.svg" alt="logo">
+                    </a>
+                <nav class="menu">
+                    <a href="about.html">About</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="gallery.html">Gallery</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+            </div><!-- closes the bar-->
+            <h1>We Sell Luxury Houses and Penthouses</h1>
+        </div><!-- closes the content-header-->
+    </header>
+
+    <h2 class="center">Contact</h2>
+    <img src="img/destacada.jpg" alt="just a picture">
+    <main class="container">  
+        <form action="#"> <!--/*server.php*/ -->
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="userName">
+
+                <label for="email">Email:</label>
+                <input type="email" name="email" id=userEmail>
+                
+                <label for="tel">Phone:</label>
+                <input type="tel" name="phone" id="userPhone">
+                
+                <label for="message">Message:</label>
+                <textarea name="message" id="userMessage" cols="30" rows="10"></textarea>
+            </fieldset>
+            
+            <fieldset>
+               <legend>Product Information</legend> 
+                <label for="type">Type:</label>
+                <select name="type" id="product">
+                    <option value="" selected disabled> --- Select an Option ---</option>
+                    <option value="sell">Sell</option>
+                    <option value="buy">Buy</option>
+                 </select>
+
+                <label for="number">Number</label>
+                <input type="button" name="number" id="productNuber">
+            </fieldset>
+
+            <fieldset>
+                <legend>Contact Information</legend>
+                <p>If you want to be contacted by phone, please select a day an hour</p>
+
+                <label for="date">Date:</label>
+                <input type="date" name="date" id="date">
+
+                <label for="hour">Hour:</label>
+                <input type="time" name="hour" id="hour">       
+            </fieldset>
+
+            <div class="btn-form">
+                <input class="btn" type="submit" value="Send">
+            </div>
+
+        </form>
+    </main>
+
+    <footer>
+        <nav>
+            <a href="about.html">About</a>
+            <a href="blog.html">Blog</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <p>All the copyrights reserved 2020 &copy; Leticia Espinoza</p>
+    </footer>
+
+</body>
+</html>
