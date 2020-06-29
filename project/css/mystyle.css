@@ -9,6 +9,7 @@ html{
     --dark:#333333;
     --secondary: #71b100;
     --blue:#283240;
+    --secondary2:#D98014;
 }
 
 body{
@@ -109,7 +110,7 @@ img{
 }
 
 .menu a:hover{
-    color: var(--secondary);
+    color: var(--secondary2);
 }
 
 /* mobile menu */
@@ -264,7 +265,13 @@ a.btn{             /*diferencia entre a.btn y a .btn*/
     border: 1px solid #C28431;
     border-radius: 3rem;
     margin-top: 3rem;
+    color: black;
 }
+
+a.btn:hover{
+    color: #055C15;
+}
+
 
 /* Blog page*/
 
@@ -272,6 +279,12 @@ a.btn{             /*diferencia entre a.btn y a .btn*/
     display: grid;
     grid-template-columns: 50% 50%;
     column-gap: 2rem;
+}
+
+.media-item{
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
